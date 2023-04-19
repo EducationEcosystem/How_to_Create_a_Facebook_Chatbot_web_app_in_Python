@@ -10,7 +10,7 @@ app = Flask(__name__)
 slack_event_adapter =  SlackEventAdapter("4844b24394d716658fb1f3390c150323", "/slack/events", app)
 
 # Slack events token
-slack_web_client = WebClient("xoxb-2696512543281-2683922310898-uMHN529oLXgZHHJ12F8yJ4yd")
+slack_web_client = WebClient("PUT THE KEY/TOKEN HERE")
 
 def flip_coin(channel):
     coin_bot = CoinBot(channel)
